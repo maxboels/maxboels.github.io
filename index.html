@@ -1,1 +1,208 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/f4d7ef6cfa.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8" name="description" content="Maxence Boels' webpage">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <!-- Google Fonts / Roboto r-m-b / Roboto Mono r-m-b -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Font icons / Google Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar nav-grid">
+    <div class="nav-grid-item">
+      <a href="#" class="logo"> &lt; Maxence Boels /> </a>
+      <ul class="navbar-menu">
+        <li><h6><a href="#projects-section" class="line-link" id="project-btn">Projects</a></h6></li>
+        <li><h6><a href="#about-section" class="line-link" id="about-btn">About</a></h6></li>
+        <li><h6><a href="Boels_Maxence_Resume_03_2020.pdf" target="_blank" rel=”noopener noreferrer” class="line-link">Resume</a></h6></li>
+        <li><h6><a href="#contact-section" class="line-link">Contact</a></h6></li>
+      </ul>
+      <div class="navbar-burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header START -->
+  <header class="header header-grid">
+    <div class="header-grid-item">
+      <h1 class="header__subtitle u-mb-1"><span class="typed"></span></h1>
+        <script src="js/components/typed.js"></script>
+        <script>
+          var typed = new Typed(".typed", {
+            strings: [
+              "Hi!",
+              "Bonjour!",
+              "Hallo!",
+              "Olá!",
+              "Hola!"
+              ],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true,
+          });
+        </script>
+      <div class="u-relative">
+      <h1 class="header__title u-mb-2">
+        I am Maxence, an AI Engineer and PhD candidate in Biomedical Enigneering at KCL.</h1>
+        <a class="btn-primary header__btn" href="mailto:boelsmaxence@gmail.com">
+          <div class="btn-container">
+            <h6>Get in touch </h6>
+            <span class="material-icons">mail_outline</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects START -->
+  <div class="projects projects-grid">
+    <div class="projects-grid-item">
+      <a class="anchor" id="projects-section"></a>
+      <h6 class="section-title project-title-grid-item">Selected Projects</h6>
+      <div class="col-2-container">
+        <!-- JS / cardView insert cards here -->
+      </div>
+    </div>
+
+  </div> <!-- End of Projects -->
+
+  <!-- Skills START -->
+  <div class="skills skills-grid">
+    <div class="skills-grid-item">
+      <h6 class="section-title section-title--white">skills</h6>
+      <div class="tag-container">
+        <h5 class="tag tag--hmtl">Machine Learning</5>
+        <h5 class="tag tag--css">Deep Learning</5>
+        <h5 class="tag tag--css">Computer Vision</5>
+        <h5 class="tag tag--css">Python Programming</5>
+        <h5 class="tag tag--backend">C++</5>
+        <h5 class="tag tag--backend">IoT</5>
+        <h5 class="tag tag--backend">SQL</5>
+        <h5 class="tag tag--js">React</5>
+        <h5 class="tag tag--tool">Git</5>
+        <h5 class="tag tag--tool">Github</5>
+        <h5 class="tag tag--tool">Medical Imaging</5>
+      </div>
+    </div>
+  </div>
+
+  <!-- About START -->
+  <div class="about about-grid">
+    <div class="about-grid-item">
+      <a class="anchor" id="about-section"></a>
+      <h6 class="section-title">about</h6>
+      <div class="col-2-container">
+        <!-- Col 1 LEFT -->
+        <div>
+          <h2 class="about-title">Hello! I am Maxence. </h2>
+          <p  class="about-text">Put my intro story here
+          </p>
+          <p class="about-text">Main body text here.
+          </p>
+          <p class="about-text">
+            Add some fun facts here.
+          </p>
+          <a class="link-icon__container" href="Boels_Maxence_Resume_03_2020.pdf" target="_blank" rel=”noopener noreferrer”>
+            <span class="link-icon material-icons">get_app</span>
+            <h5>Download resume</h5>
+          </a>
+        </div>
+        <!-- Col 2 RIGHT -->
+        <div>
+          <img class="about__img" src="images/profil_picture.jpg" alt="profile-pic">
+        </div>
+      </div>
+    </div>
+  </div> <!-- end About-->
+
+  <!-- Experience START -->
+  <div class="experience exp-grid">
+    <div class="exp-grid-item">
+      <h6 class="section-title">experience</h6>
+      <div class="col-2-container">
+         <!-- Col 1 LEFT -->
+        <div>
+          <h5 class="exp-title">Work Experience</h5>
+          <div class="exp-text">
+            <p>09/2020 - 12/2020</p>
+            <p>Radiomics, Brussels</p>
+            <p>Deep Learning Engineer in R&D</p>
+          </div>
+          <div class="exp-text">
+            <p>08/2018 - 03/2019</p>
+            <p>Deloitte Technology and Analytics, Paris</p>
+            <p>Data Scientist intern</p>
+          </div>
+          <div class="exp-text">
+            <p>06/2016 - 09/2016</p>
+            <p>Air Brussels, Brussels</p>
+            <p>Data Scientist intern</p>
+          </div>
+          <div class="exp-text">
+            <p>06/2015 - 09/2015</p>
+            <p>Air Brussels, Brussels</p>
+            <p>Data Scientist intern</p>
+          </div>
+        </div>
+         <!-- Col 2 RIGHT -->
+        <div>
+          <h5 class="exp-title">Academic Experience</h5>
+          <div class="exp-text">
+            <p> 01/2021 - 05/2021</p>
+            <p>FreeLance</p>
+            <p>Web Development / Machine Learning projects</p>
+          </div>
+          <div class="exp-text">
+            <p>2019 - 2020</p>
+            <p>University of Surrey, UK</p>
+            <p>MSc in Computer Vision, Robotics and Machine Learning</p>
+          </div>
+          <div class="exp-text">
+            <p>2017 - 2019</p>
+            <p>Nova University of Lisbon, Portugal</p>
+            <p>MSC in Data Science and Advanced Analytics</p>
+          </div>
+          <div class="exp-text">
+            <p>2013 - 2017</p>
+            <p>ICHEC Brussels Business School, Belgium</p>
+            <p>BSc in Business Administration and Economics</p>
+          </div>
+
+          <h5 class="exp-title">Languages</h5>
+          <p>English > Fluent</p>
+          <p>French > Native</p>
+          <p>Dutch > Fluent</p>
+          <p>Spanish > Intermediate</p>
+          <p>Portuguese > Elementary</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer START -->
+  <footer class="footer footer-grid u-text-white">
+    <div class="footer-grid-item">
+      <a class="anchor" id="contact-section"></a>
+      <h6 class="section-title">get in touch</h6>
+      <p class="footer__mail"><a href="mailto:boelsmaxence@gmail.com">boelsmaxence@gmail.com</a></p>
+      <ul class="footer__social">
+        <li><h5><a href="https://github.com/maxboels" target="_blank" rel=”noopener noreferrer”>Github</a></h5></li>
+        <li><h5><a href="https://www.linkedin.com/in/maxence-boels-a8946192/" target="_blank" rel=”noopener noreferrer”>LinkedIn</a></h5></li>
+        <li><h5><a href="https://www.instagram.com/maxboels/" target="_blank" rel=”noopener noreferrer”>Instagram</a></h5></li>
+        <li><p class="footer__copyright">Thanks to Louis de Moffarts for template © 2021</p></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+
+</body>
+</html>
