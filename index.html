@@ -1,214 +1,1183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <script src="https://kit.fontawesome.com/f4d7ef6cfa.js" crossorigin="anonymous"></script>
-  <meta charset="utf-8" name="description" content="Louis de Moffarts's webpage">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>My profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
-  <!-- Google Fonts / Roboto r-m-b / Roboto Mono r-m-b -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-  <!-- Font icons / Google Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- JavaScript Scripts -->
-  <script type="module" src="js/app.js"></script>
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
+<html lang="fr">
 
-</head>
+  <head>
 
-<body>
-  <nav class="navbar nav-grid">
-    <div class="nav-grid-item">
-      <a href="#" class="logo"> &lt; Maxence Boels /> </a>
-      <ul class="navbar-menu">
-        <li><h6><a href="#projects-section" class="line-link" id="project-btn">Projects</a></h6></li>
-        <li><h6><a href="#about-section" class="line-link" id="about-btn">About</a></h6></li>
-        <li><h6><a href="Boels_Maxence_Resume_03_2020.pdf" target="_blank" rel=”noopener noreferrer” class="line-link">Resume</a></h6></li>
-        <li><h6><a href="#contact-section" class="line-link">Contact</a></h6></li>
-      </ul>
-      <div class="navbar-burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Guillaume Fradet" />
+    <meta property="og:url" content="https://guillaume-fradet.com" />
+    <meta property="og:image" content="https://guillaume-fradet.com/img/profile_512.png" />
+    <meta name="language" content="fr" />
+
+
+    <title>Guillaume Fradet</title>
+    <meta name="description" content="Data Scientist @ AZmed" />
+    <meta name="author" content="Guillaume Fradet" />
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="canonical" href="https://guillaume-fradet.com" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cards.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109327416-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-109327416-1');
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#formation">Formation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#interest">Mes intérêts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- Header START -->
-  <header class="header header-grid">
-    <div class="header-grid-item">
-      <h1 class="header__subtitle u-mb-1"><span class="typed"></span></h1>
-        <script src="js/components/typed.js"></script>
-        <script>
-          var typed = new Typed(".typed", {
-            strings: [
-              "Hi!",
-              "Bonjour!",
-              "Hallo!",
-              "Olá!",
-              "Hola!"
-              ],
-            typeSpeed: 70,
-            backSpeed: 70,
-            loop: true,
-          });
-        </script>
-      <div class="u-relative">
-      <h1 class="header__title u-mb-2">
-        I am Maxence, an AI Engineer and PhD candidate in Biomedical Enigneering at KCL.</h1>
-        <a class="btn-primary header__btn" href="mailto:boelsmaxence@gmail.com">
-          <div class="btn-container">
-            <h6>Get in touch </h6>
-            <span class="material-icons">mail_outline</span>
+    </nav>
+
+
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <img id="profileImg" class="img-fluid" src="img/profile_512.png" alt="guilaume fradet photo de profil">
+        <div class="intro-text">
+          <h1 class="name">Guillaume Fradet</h1>
+          <hr class="hr-transparent">
+          <div id="intro">
+            <h2 class="bio">Data Scientist / Deep Learner</h2>
           </div>
-        </a>
+          <div id="intro2">
+            <p>Deep Learning researcher chez AZmed, je crois profondément au mouvement <i>#AIforGood</i> qui vise à mettre l'intelligence
+              artificielle au service de l'humain et du bien commun. Particulièrement attiré par le secteur de la e-santé,
+              j'aspire à intégrer les projets d'envergure de demain, qui révolutionneront les pratiques actuelles.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Projects START -->
-  <div class="projects projects-grid">
-    <div class="projects-grid-item">
-      <a class="anchor" id="projects-section"></a>
-      <h6 class="section-title project-title-grid-item">Selected Projects</h6>
-      <div class="col-2-container">
-        <!-- JS / cardView insert cards here -->
+    <!-- Link Section -->
+    <section id="link-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <li class="list-inline-item">
+                <a class="btn-social-color btn-outline-color" href="https://www.linkedin.com/in/fradetguillaume/">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social-color btn-outline-color" href="https://github.com/guillaumefrd">
+                  <i class="fa fa-fw fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social-color btn-outline-color" href="https://twitter.com/guillaumefrd_">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-  </div> <!-- End of Projects -->
-
-  <!-- Skills START -->
-  <div class="skills skills-grid">
-    <div class="skills-grid-item">
-      <h6 class="section-title section-title--white">skills</h6>
-      <div class="tag-container">
-        <h5 class="tag tag--hmtl">Machine Learning</5>
-        <h5 class="tag tag--css">Deep Learning</5>
-        <h5 class="tag tag--css">Computer Vision</5>
-        <h5 class="tag tag--css">Python Programming</5>
-        <h5 class="tag tag--backend">C++</5>
-        <h5 class="tag tag--backend">IoT</5>
-        <h5 class="tag tag--backend">SQL</5>
-        <h5 class="tag tag--js">React</5>
-        <h5 class="tag tag--tool">Git</5>
-        <h5 class="tag tag--tool">Github</5>
-        <h5 class="tag tag--tool">Medical Imaging</5>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <hr class="hr-grey">
+        <br>
+        <!-- Domain adaption article -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/domain_adaptation_article.png)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Juin 2020</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://medium.com/azmed/domain-adaptation-la-cl%C3%A9-du-d%C3%A9ploiement-des-algorithmes-%C3%A0-grande-%C3%A9chelle-12e32a6d9a13">Article Medium</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Domain Adaptation</h1>
+            <h2>la clé du déploiement des algorithmes à grande échelle</h2>
+            <p>Un algorithme de détection performant sur un centre médical, mais inadapté pour un autre. Voilà une des problématiques majeures à laquelle sont confrontés les équipes de recherche souhaitant déployer leurs modèles à grande échelle. Dans cet article, j'introduis ce challenge nommé Domain Adaptation dans le contexte de l'imagerie médical, en m'appuyant sur mon expérience au sein d'AZmed.</p>
+            <p class="read-more">
+              <a href="https://medium.com/azmed/domain-adaptation-la-cl%C3%A9-du-d%C3%A9ploiement-des-algorithmes-%C3%A0-grande-%C3%A9chelle-12e32a6d9a13">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Radiomics -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/radiomics.jpg)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet, <a href="https://www.linkedin.com/in/reina-ayde-79602b7a/">Reina Ayde</a> </li>
+              <li class="date">Avr-Sept. 2019</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://www.researchgate.net/publication/337632006_Radiomics_vs_Deep_Learning_to_predict_lipomatous_soft_tissue_tumors_malignancy_on_Magnetic_Resonance_Imaging_report">ResearchGate</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Prédire la malignité de tumeurs adipeuses à partir d'IRM</h1>
+            <h2>Radiomics vs. Deep Learning</h2>
+            <p>
+              Rapport de recherche comparant deux principales approches - Radiomique et Deep Learning - dans le but de détecter les tumeurs adipeuses malignes, directement à partir d'imagerie par résonance magnétique.
+            </p>
+            <p class="read-more">
+              <a href="docs/Radiomics_vs_Deep_Learning_to_predict_lipomatous_soft_tissue_tumors_malignancy_on_MRI_Guillaume_Fradet.pdf">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- brain-tumor-mri-dataset  -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/brain-tumor-mri-dataset.png)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Juillet 2019</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/brain-tumor-mri-dataset">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Dataset: tumeurs cérébrales par IRM</h1>
+            <h2>Data downloading & loading</h2>
+            <p>Commandes (CLI) pour télécharger un dataset de tumeurs cérébrales prises par IRM, et code Python pour le visualiser.</p>
+            <p class="read-more">
+              <a href="https://github.com/guillaumefrd/brain-tumor-mri-dataset">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Mars Craters -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/mars_craters_detection.jpg)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Décembre 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/mars-craters-detection">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Computer Vision: Mars craters</h1>
+            <h2>Object detection / segmentation</h2>
+          <p>Application de techniques de détection / segmentation d'objets (MaskRCNN et RetinaNet) sur des images satellite de Mars, afin de d'identifier automatiquement les cratères.</p>
+            <p class="read-more">
+              <a href="https://github.com/guillaumefrd/mars-craters-detection">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Reinforcement learning -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/reinforcement_learning_gym.png)"></div>
+            <ul class="details">
+              <li class="author"><a href="https://www.linkedin.com/in/comecothenet/">Côme Cothenet</a>, <a href="https://www.linkedin.com/in/kathrynschutte/">Kathryn Schutte</a>, Guillaume Fradet</li>
+              <li class="date">Février 2019</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/q-learning-mountain-car">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Reinforcement Learning</h1>
+            <h2>Implémentation du Q-Learning</h2>
+            <p>Apprentissage par renforcement suivant la technique du Q-learning. L'environnement est celui de MountainCar (OpenAI Gym), où il faut apprendre à une voiture à se balancer de gauche à droite afin de pouvoir gravir la montagne.</p>
+            <p class="read-more">
+              <a href="https://github.com/guillaumefrd/q-learning-mountain-car">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- VAST Challenge -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/data_viz_challenge.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="https://www.linkedin.com/in/nicolas-toussaint/">Nicolas Toussaint</a>, <a href="https://www.linkedin.com/in/sajeevan-p-807867129/">Sajeevan Puvikaran</a>, <a href="https://www.linkedin.com/in/ruth-kueviakoe-668868140/">Ruth Kueviakoe</a>, Guillaume Fradet</li>
+              <li class="date">Oct-Déc. 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/vast-challenge-2018-mc1">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Data viz: VAST Challenge</h1>
+            <h2>Visualisation et Machine Learning</h2>
+            <p>Développement de diverses visualisations afin de répondre au VAST mini-challenge 1 de 2018. Le but était de découvrir si les actions d'une entreprise avaient menées à la migration d'oiseaux. L'analyse des données spatio-temporelle a conduit à l'élaboration d'une carte interactive permettant d'observer les mouvements des différentes espèces. Une analyse spectrale sur les chants des oiseaux à également permis de découvrir des faits intéressants.</p>
+            <p class="read-more">
+              <a href="https://github.com/guillaumefrd/vast-challenge-2018-mc1">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- MAP on NMF -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/map_nmf.jpg)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Dec. 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/map-estimation-on-NMF">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>MAP estimation sur NMF</h1>
+            <h2>Graphical models</h2>
+            <p>Maximum a posteriori (MAP) estimation sur NMF (non-negative matrix factorization), appliquée à des visages.</p>
+            <p class="read-more">
+              <a href="https://github.com/guillaumefrd/map-estimation-on-NMF">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- A.S.T.R. -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/robot_pepper.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="https://www.linkedin.com/in/romaintaprest/">Romain Taprest</a>, Guillaume Fradet</li>
+              <li class="date">Avril-Sept. 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/aldebaran/astr">web-app</a></li>
+                  <li><a href="https://github.com/aldebaran/lib-python-astr">python-lib</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>A.S.T.R. - Archiving System Truly RESTful</h1>
+            <h2>Développement d'une application web Open Source - SoftBank Robotics</h2>
+            <p>Développement d'un système d'archivage Open Source permettant le stockage de tout type de données. Système basé sur une application web, dont l'interaction est possible grâce au site web ou directement à partir de scripts (à l'aide de la librairie Python développée). A l'origine, l'application a été pensée et développée au sein de SoftBank Robotics pour stocker des tests effectués sur les robots NAO et Pepper.</p>
+            <p class="read-more">
+              <a href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Coupe de France de Robotique  -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/coupe_france_robotique.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="http://davincibot.org/">DaVinciBot</a>, Guillaume Fradet</li>
+              <li class="date">2016-2017</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://www.esilv.fr/coupe-de-france-de-robotique-2017-davinci-bot-top-50/">article</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Coupe de France de Robotique</h1>
+            <h2>éditions 2016 et 2017</h2>
+            <p>Participation à deux éditions de la Coupe de France de Robotique avec l'association DaVinciBot du Pôle Universitaire Léonard de Vinci.</p>
+            <p class="read-more">
+              <a href="#portfolioModalCDR" data-toggle="modal">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Top chef app -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/top-chef_screenshot.jpg)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Février 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/top-chef-react-scrapping">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Top Chef</h1>
+            <h2>Scrapping & application web en React.js</h2>
+            <p>Une application web qui permet de trouver facilement tous les restaurants étoilés Michelin qui offrent actuellement des promotions en France.</p>
+            <p class="read-more">
+              <a href="#portfolioModalTopChef" data-toggle="modal">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- MongoDB UI -->
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/api_screenshot.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="https://www.linkedin.com/in/matthiasexbrayat/">Matthias Exbrayat</a>, Guillaume Fradet</li>
+              <li class="date">Mars 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/mongodb-interface">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Interface utilisateur MongoDB & API</h1>
+            <h2>NoSQL Databases</h2>
+            <p>Application web permettant d'explorer facilement une base de données MongoDB, contenant les 5000 films les plus vendus sur Amazon.</p>
+            <p class="read-more">
+              <a href="#portfolioModalAPI" data-toggle="modal">Read More</a>
+            </p>
+          </div>
+        </div>
+        <!-- Android app -->
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(img/portfolio/android_screenshot.png)"></div>
+            <ul class="details">
+              <li class="author">Guillaume Fradet</li>
+              <li class="date">Mars 2018</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="https://github.com/guillaumefrd/youtube-android-app">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>YouTube 0.1</h1>
+            <h2>Développement d'une application Android</h2>
+            <p>Le but de ce projet était de développer une application Android similaire à Youtube, en utilisant leur API.</p>
+            <p class="read-more">
+              <a href="#portfolioModalAndroid" data-toggle="modal">Read More</a>
+            </p>
+          </div>
+        </div>
+        <div class="center-button">
+          <button id="show_more_projects" type="button" class="btn btn-outline-primary">Show more</button>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- About START -->
-  <div class="about about-grid">
-    <div class="about-grid-item">
-      <a class="anchor" id="about-section"></a>
-      <h6 class="section-title">about</h6>
-      <div class="col-2-container">
-        <!-- Col 1 LEFT -->
-        <div>
-          <h2 class="about-title">Hello! I am Maxence. </h2>
-          <p  class="about-text">Put my intro story here
-          </p>
-          <p class="about-text">Main body text here.
-          </p>
-          <p class="about-text">
-            Add some fun facts here.
-          </p>
-          <a class="link-icon__container" href="Boels_Maxence_Resume_03_2020.pdf" target="_blank" rel=”noopener noreferrer”>
-            <span class="link-icon material-icons">get_app</span>
-            <h5>Download resume</h5>
+    <!-- Formation Section -->
+    <section id="formation">
+      <div class="container">
+        <h2 class="text-center">Formation</h2>
+        <hr class="hr-primary">
+
+
+        <div class="row">
+          <a href="docs/CV_Guillaume_Fradet.pdf" id="downloadCV" download>
+            <button type="button" class="btn btn-info">
+              <span class="fa fa-download" aria-hidden="true"></span> Télécharger mon CV
+            </button>
           </a>
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/formation/polytechnique.png" alt="polytechnique">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2018 - 2019</h4>
+                    <h4 class="subheading">École Polytechnique - Master 2 Data Science</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <div class="row">
+                      <div class="col-sm">
+                        <p class="text-muted">
+                          <i>Cours suivis au 1er semestre :</i>
+                          <ul class="text-muted">
+                            <li>Optimization for Data science</li>
+                            <li>Reinforcement learning</li>
+                            <li>Introduction to Graphical Models</li>
+                            <li>Big Data Framework (Hadoop, Spark, ES)</li>
+                            <li>Systems for Big Data Analytics</li>
+                            <li>Visualization and Visual Analytics for Data Science</li>
+                            <li>Big Data camp</li>
+                          </ul>
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                        <p class="text-muted">
+                          <i>Cours suivis au 2ème semestre :</i>
+                          <ul class="text-muted">
+                            <li>Deep Learning</li>
+                            <li>Advanced Learning for Text and Graph Data (NLP)</li>
+                            <li>Data Stream Processing</li>
+                            <li>Machine Learning, Business case</li>
+                            <li>Big data & assurance</li>
+                            <li>Infrastructure de données (NoSQL)</li>
+                            <li>Modèles à effets mixtes et approches de population en sciences de la vie</li>
+                          </ul>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/formation/esilv.jpg" alt="esilv">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2014 - 2019</h4>
+                    <h4 class="subheading">ESILV - Ecole Supérieure d'Ingénieurs Léonard de Vinci, Paris - La Défense</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      <strong>Majeure: Informatique, Big Data et objets connectés</strong>
+                    </p>
+                    <br>
+                    <p class="text-muted">Activités et associations : Responsable communication de l'association de robotique DaVinciBot, participation à la Coupe de France de Robotique 2016 et 2017</p>
+                    <br>
+                    <p class="text-muted">Exemple de cours suivis en anglais:
+                      <ul class="text-muted">
+                        <li>Machine Learning and clustering</li>
+                        <li>Mobile application development</li>
+                        <li>Web Application Architectures</li>
+                        <li>Adv topics in NoSql databases</li>
+                        <li>Embedded Systems: architecture & programming</li>
+                      </ul>
+                    </p>
+                    <p class="text-muted">Exemple de cours suivis en français:
+                      <ul class="text-muted">
+                        <li>MVC: Données et Interfaces</li>
+                        <li>Statistiques Inférentielles</li>
+                        <li>Analyse Numérique</li>
+                        <li>Architecture client-serveur et développement internet</li>
+                        <li>Bases de données SQL</li>
+                        <li>Traitement du Signal</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/formation/latech.jpg" alt="louisiana-techn-university">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2017 - Fall semester</h4>
+                    <h4 class="subheading">Louisiana Tech University, USA</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      <strong>Majeure : Computer Science</strong>
+                      <br>Grâce à un programme d'échange, j'ai eu la chance d'étudier un semestre dans cette université américaine, réputée pour la qualité de formation de ses ingénieurs.
+                    <br><br><strong>Article:</strong> <a href="https://www.esilv.fr/semestre-detudes-aux-etats-unis-guillaume-promo-2019-echange-a-louisiana-tech-university/" target="_blank">Un semestre d’études aux Etats-Unis : Guillaume, Promo 2019, en échange à Louisiana Tech University (ESILV)</a>
+                    </p>
+                    <br>
+                    <p class="text-muted">Cours suivis:
+                      <ul class="text-muted">
+                        <li>Adv data structures & algorithms</li>
+                        <li>Software design & engineering</li>
+                        <li>Computer Networks</li>
+                      </ul>
+                    </p>
+                    <br>
+                    <p class="text-muted">
+                      <strong>GPA: 4.0 (A)</strong>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/formation/stdo.jpg" alt="saint-dominique">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2011 - 2014</h4>
+                    <h4 class="subheading">Lycée Saint Dominique de Mortefontaine (60)</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Obtention du Baccalauréat Scientifique, Mention Bien</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- Col 2 RIGHT -->
-        <div>
-          <img class="about__img" src="images/profil_picture.jpg" alt="profile-pic">
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="text-center">Experience</h2>
+        <hr class="hr-grey">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/azmed.png" alt="altran">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Novembre 2019 - Présent</h4>
+                    <h4 class="subheading">Data Scientist (Deep Learning Researcher) - AZmed, Paris</h4>
+                  </div>
+                  <div class="timeline-body">
+                    AZmed détecte les lésions osseuses sur les radiographies standards afin de faire gagner les médecins en temps et en précision.<br><br>
+
+                    Article Medium: <a href="https://medium.com/azmed/domain-adaptation-la-cl%C3%A9-du-d%C3%A9ploiement-des-algorithmes-%C3%A0-grande-%C3%A9chelle-12e32a6d9a13">Domain Adaptation : la clé du déploiement des algorithmes à grande échelle</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/altran.png" alt="altran">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Avril - Septembre 2019</h4>
+                    <h4 class="subheading">Data Scientist en imagerie médicale - Altran Research, Vélizy-Villacoublay</h4>
+                  </div>
+                  <div class="timeline-body">
+                    Application de méthodes de machine learning sur données radiomiques, et deep learning sur images IRM, pour classifier, détecter et segmenter des tumeurs bénignes et malignes (lipomes et liposarcomes). Aujourd'hui, le diagnostic de ce dernier se fait par biopsie après un examen IRM. Cependant, le ratio malin/bénin est très faible pour ces tumeurs, beaucoup de biopsies sont donc faites inutilement. Un diagnostic fait directement à partir d'images IRM serait une alternative intéressante, aussi bien pour les patients qui éviteraient un examen invasif, que pour les structures médicales qui bénéficieraient d'économies financières.<br>
+                    Le stage devrait conduire à la publication d'un article scientifique où différentes techniques et approches sont comparées.<br><br>
+                    Travail en collaboration avec le laboratoire de recherche en imagerie médicale CREATIS.<br><br>
+
+                    Rapport:  <a href="https://drive.google.com/file/d/1hT8qe95BQh2p-SLL49Ze54IXByHDZwLB/view?usp=sharing" target="_blank">Radiomics vs. Deep Learning to predict lipomatous soft tissue tumors malignancy on Magnetic Resonance Imaging</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/softbankrobotics.png" alt="softbank-robotics">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Avril - Août 2018</h4>
+                    <h4 class="subheading">Développeur FullStack - SoftBank Robotics Europe, Paris</h4>
+                  </div>
+                  <div class="timeline-body">
+                    Au sein du département Intégration, Vérification et Validation, le but du stage était de développer un système d'archivage pour stocker toutes les données de tests effectués sur les robots NAO et Pepper. <br>
+                    J'ai développé une application web basée sur une API REST, qui est maintenant déployée et utilisée dans plusieurs services de l'entreprise.<br>
+                    L'application, nommée A.S.T.R. pour Archiving System Truly RESTful, et la librairie Python sont Open Source et disponibles sur le GitHub de l'entreprise.<br><br>
+
+                    ➢ Élaboration d'un cahier des charges en accord avec les besoins de l'équipe.<br>
+                    ➢ Choix des technos.<br>
+                    ➢ Développement de l'application web (API REST et site web).<br>
+                    ➢ Gestion de l'envoie de fichiers volumineux sur le serveur.<br>
+                    ➢ Gestion des droits d'utilisateurs.<br>
+                    ➢ Recherche avancée des archives.<br>
+                    ➢ Etablissement d'une librairie Python.<br>
+                    ➢ Gestion du déploiement.<br><br>
+
+                    ✹ Technologies utilisées : Node.js, MongoDB (NoSQL), Express, Python, Git, Docker, Ansible<br>
+                    ✹ Environnement : Linux<br>
+                    ✹ Code source : <a href="https://github.com/aldebaran/astr" target="_blank">l'application web</a> et <a href="https://github.com/aldebaran/lib-python-astr" target="_blank">la librairie Python</a><br><br>
+
+                    Article:  <a href="https://www.esilv.fr/stage-softbank-robotics-developpeur-full-stack/" target="_blank">Un stage chez SoftBank Robotics : Guillaume, élève-ingénieur promo 2019, développeur Full Stack (ESILV)</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/fishfriender.png" alt="fishfriender">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Juin - Juillet 2017</h4>
+                    <h4 class="subheading">Développeur Node.js - Fishfriender, Paris</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>FishFriender est une jeune start-up qui développe une plateforme comprenant une application mobile et un site web sous forme
+                      de réseau social, sur laquelle les pêcheurs partagent leurs plus belles prises.
+                      <br><br>➢ Missions : Automatiser la récupération et le traitement de données partenaires afin de les adapter et les insérer dans
+                      la base de données de l'application. Les données partenaires étaient soit sur des tableurs Excel, soit sur des pages web où
+                      il a fallu faire du "web scraping".
+                      <br><br>✹ Technologies utilisées : Node.js, JavaScript, SQL, JSON.
+                      <br>✹ Environnement : Mac OS
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/davincibot.png" alt="davincibot">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Septembre 2016 - Juin 2017</h4>
+                    <h4 class="subheading">Responsable communication - DaVinciBot, La Défense</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>L’association DaVinciBot regroupe tous les passionnés de robotique du pôle universitaire Léonard de Vinci (PULV).
+                      Elle est née suite à l’initiative d’un groupe d’étudiants voulant participer à la Coupe De Robotique (CDR),
+                      événement phare dans le monde de la robotique française.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/marmon.jpg" alt="marmon-sports">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Juin - Septembre 2016</h4>
+                    <h4 class="subheading">Assistant vendeur - Marmon Sports, Aubervilliers</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Job d'été (4 mois)</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/experience/asterix.png" alt="asterix">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Juillet 2015</h4>
+                    <h4 class="subheading">Opérateur - Parc Astérix, Plailly (60)</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Job d'été (3 semaines)</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="success" id="skills">
+      <div class="container">
+        <h2 class="text-center">Compétences</h2>
+        <hr class="hr-light">
+        <div class="row" id="skillsbar">
+          <div class="col-sm-4 portfolio-item">
+            <h3>Programmation <i class="fa fa-laptop"></i></h3>
+            <code class="code-snippet">
+              <li>Python <span style="color: #888888"># Numpy, Pandas, Scikit-Learn, TensorFlow, Keras, Matplotlib</span></li>
+              <li>Web development <span style="color: #888888"># HTML, CSS, JavaScript, jQuery, Node.js, Express.js</span></li>
+              <li>Databases <span style="color: #888888"># SQL (MySQL, PostgreSQL), NoSQL (MongoDB), ElasticStack</span></li>
+              <li>C# / Java</li>
+              <li>R</li>
+            </code>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <h3>Outils / Logiciels <i class="fa fa-wrench fa-5x" width="100px"></i></h3>
+            <code class="code-snippet">
+              <li>Git</li>
+              <li>Jupyter</li>
+              <li>LaTeX</li>
+              <li>Unix</li>
+              <li>RStudio</li>
+              <li>VS Code</li>
+              <li>Android Studio</li>
+              <li>Adobe Photoshop</li>
+            </code>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <h3>Langues <i class="fa fa-globe"></i> </h3>
+            <code class="code-snippet">
+    					<li>🇫🇷 Français <span style="color: #888888"># natif</span></li>
+              <li>🇬🇧 Anglais <span style="color: #888888"># courant</span></li>
+              <li>🇪🇸 Espagnol <span style="color: #888888"># notions</span></li>
+            </code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interest Section -->
+    <section id="interest">
+      <div class="container">
+        <h2 class="text-center">Mes intérêts</h2>
+        <hr class="hr-primary">
+        <div class="row">
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#travel" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/interest/travel.jpg" alt="voyage">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#moto" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/interest/moto.jpg" alt="moto">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#diving" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/interest/diving.jpg" alt="plongée sous-marine">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <hr class="hr-grey">
+        <div class="row">
+          <div id="linkedin">
+            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="vertical" data-theme="light" data-vanity="fradetguillaume"><a class="LI-simple-link" href='https://fr.linkedin.com/in/fradetguillaume?trk=profile-badge'>Guillaume Fradet</a></div>
+          </div>
+        </div>
+        <div id="coord">
+          <p>
+            <a href="mailto:guillaume-fradet@hotmail.fr">guillaume-fradet@hotmail.fr</a>
+            <br><br><i class="fa fa-phone" aria-hidden="true"></i> 07 70 79 30 97
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3>Mes réseaux</h3>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://www.linkedin.com/in/fradetguillaume/">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://github.com/guillaumefrd">
+                  <i class="fa fa-fw fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://twitter.com/guillaumefrd_">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" href="https://www.youtube.com/channel/UCVwh7T1paSnmQMSKXQmUDSQ">
+                  <i class="fa fa-fw fa-youtube-play"></i>
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Copyright &copy; Guillaume Fradet 2020.<br> Site developpé à partir d'un template de <a href="http://startbootstrap.com">Start Bootstrap</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModalCDR" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Coupe de France de Robotique</h2>
+                  <hr class="hr-primary">
+                  <iframe width="100%" height="350" src="https://www.youtube.com/embed/74DBdf18XPU" frameborder="0" allowfullscreen></iframe>
+                  <p><br>J'ai participé à deux éditions de la Coupe de France de Robotique (2016 et 2017) avec l'association
+                    <a href="http://davincibot.org" target="_blank">DaVinciBot</a> du Pôle Universitaire Léonard de Vinci.
+                    En 2017, notre objectif était d'arriver dans le Top 50. La mission a été accompli puisque nous
+                    finissons 44ème sur 196 équipes inscrites !</p>
+                  <ul class="list-inline item-details">
+                    <li>Plus d'informations
+                      <strong>
+                        <a href="http://davincibot.org/cdr/" target="_blank">sur le site DaVinciBot</a>
+                      </strong>
+                    </li>
+                    <li>
+                        <a href="https://www.esilv.fr/coupe-de-france-de-robotique-2017-davinci-bot-top-50/" target="_blank">Article de l'ESILV</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div> <!-- end About-->
-
-  <!-- Experience START -->
-  <div class="experience exp-grid">
-    <div class="exp-grid-item">
-      <h6 class="section-title">experience</h6>
-      <div class="col-2-container">
-         <!-- Col 1 LEFT -->
-        <div>
-          <h5 class="exp-title">Work Experience</h5>
-          <div class="exp-text">
-            <p>09/2020 - 12/2020</p>
-            <p>Radiomics, Brussels</p>
-            <p>Deep Learning Engineer in R&D</p>
+    <div class="portfolio-modal modal fade" id="portfolioModalTopChef" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-          <div class="exp-text">
-            <p>08/2018 - 03/2019</p>
-            <p>Deloitte Technology and Analytics, Paris</p>
-            <p>Data Scientist intern</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Top Chef Website</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/top-chef_screenshot.jpg" alt="screenshot-app">
+                  <p>
+                    Le but de ce site web est de trouver tous les <strong>restaurants étoilés Michelin</strong> qui offrent des <strong>promotions</strong> (en France).
+                    <br>
+                    <i>"Eat well and cheaper than usually".</i>
+                    <br><br>
+                    Pour cela, j'ai "scrapé" le site web Michelin pour récupérer une liste de tous les restaurants étoilés en France (en utilisant Node.js et le module cheerio).
+                    <br>
+                    Ensuite, j'ai cherché ces restaurants sur <i>lafourchette.com</i> en utilisant leur nom et leur adresse, afin d'être sûr qu'il s'agissait bien du même restaurant. Enfin, j'ai retourné une nouvelle liste de restaurants avec toutes les promotions existantes.
+                    <br><br>
+                    Pour la partie "front", j'ai utilisé React sur mon site web pour afficher les restaurants et les promotions.
+                    <br>
+                    L'utilisateur peut filtrer les restaurants en indiquant le nombre d'étoiles Michelin.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>Date:
+                      <strong>
+                        Février 2018
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://guillaumefrd.github.io/top-chef/top-chef-app/build/" target="_blank">Découvrez le site ici</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/guillaumefrd/top-chef" target="_blank">GitHub repository</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="exp-text">
-            <p>06/2016 - 09/2016</p>
-            <p>Air Brussels, Brussels</p>
-            <p>Data Scientist intern</p>
-          </div>
-          <div class="exp-text">
-            <p>06/2015 - 09/2015</p>
-            <p>Air Brussels, Brussels</p>
-            <p>Data Scientist intern</p>
-          </div>
-        </div>
-         <!-- Col 2 RIGHT -->
-        <div>
-          <h5 class="exp-title">Academic Experience</h5>
-          <div class="exp-text">
-            <p> 01/2021 - 05/2021</p>
-            <p>FreeLance</p>
-            <p>Web Development / Machine Learning projects</p>
-          </div>
-          <div class="exp-text">
-            <p>2019 - 2020</p>
-            <p>University of Surrey, UK</p>
-            <p>MSc in Computer Vision, Robotics and Machine Learning</p>
-          </div>
-          <div class="exp-text">
-            <p>2017 - 2019</p>
-            <p>Nova University of Lisbon, Portugal</p>
-            <p>MSC in Data Science and Advanced Analytics</p>
-          </div>
-          <div class="exp-text">
-            <p>2013 - 2017</p>
-            <p>ICHEC Brussels Business School, Belgium</p>
-            <p>BSc in Business Administration and Economics</p>
-          </div>
-
-          <h5 class="exp-title">Languages</h5>
-          <p>English > Fluent</p>
-          <p>French > Native</p>
-          <p>Dutch > Fluent</p>
-          <p>Spanish > Intermediate</p>
-          <p>Portuguese > Elementary</p>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Footer START -->
-  <footer class="footer footer-grid u-text-white">
-    <div class="footer-grid-item">
-      <a class="anchor" id="contact-section"></a>
-      <h6 class="section-title">get in touch</h6>
-      <p class="footer__mail"><a href="mailto:boelsmaxence@gmail.com">boelsmaxence@gmail.com</a></p>
-      <ul class="footer__social">
-        <li><h5><a href="https://github.com/maxboels" target="_blank" rel=”noopener noreferrer”>Github</a></h5></li>
-        <li><h5><a href="https://www.linkedin.com/in/maxence-boels-a8946192/" target="_blank" rel=”noopener noreferrer”>LinkedIn</a></h5></li>
-        <li><h5><a href="https://www.instagram.com/maxboels/" target="_blank" rel=”noopener noreferrer”>Instagram</a></h5></li>
-        <li><p class="footer__copyright">Thanks to Louis de Moffarts for template © 2021</p></li>
-      </ul>
+    <div class="portfolio-modal modal fade" id="portfolioModalAndroid" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Développement d'une application Android</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/android_screenshot.png" alt="screenshot-app-android">
+                  <h2>But</h2>
+                  <br>
+                  <p>Le but de ce projet était de développer une application Android similaire à Youtube, en utilisant leur API.</p>
+                  <br>
+                  <h2>Fonctionnalités</h2>
+                  <p>
+                    <ul class="list-inline item-details">
+                      <li>
+                        <strong>Recherche de vidéos YouTube:</strong> vous pouvez faire des requêtes en rentrant du texte dans la searchview, une liste de vidéos sera affichée dans un RecyclerView implémentant une CardView pour chaque vidéo.
+                      </li>
+                      <li>
+                        <strong>Historique:</strong> toutes les précédentes recherches sont sauvegardées même si l'application est fermée. L'utilisateur est assisté par l'autocomplétion.
+                      </li>
+                      <li>
+                        <strong>Afficher les vidéos:</strong> appuyez sur les vidéos pour obtenir une nouvelle vue plus détaillée, où vous pourrez jouer la vidéo grâce à l'API YouTube Android Player.
+                      </li>
+                      <li>
+                        <strong>Bouton d'accueil:</strong> appuyer sur le bouton "home" dans l'appbar pour afficher les vidéos YouTube populaires du moment.
+                      </li>
+                    </ul>
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>Date:
+                      <strong>
+                        Mars 2018
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/guillaumefrd/youtube-android-app" target="_blank">GitHub repository</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
+    <div class="portfolio-modal modal fade" id="portfolioModalAPI" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>MongoDB Interface - API</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/api_screenshot.jpg" alt="screenshot-app-api">
+                  <p><br>
+                    Application web permettant d'explorer facilement une base de données MongoDB, contenant les 5000 films les plus vendus sur Amazon.<br>
+                    L'application comporte une API et un site web. Elle fonctionne sur Node.js grâce au module Express.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>Date:
+                      <strong>
+                        Mars 2018
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/guillaumefrd/mongodb-interface" target="_blank">GitHub repository</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
-  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+    <!-- Interest -->
+    <div class="portfolio-modal modal fade" id="travel" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Voyager</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/interest/travel.jpg" alt="voyage">
+                  <p>Je suis un mordu du voyage. Que ce soit avec ma famille, mes amis ou bien même seul, je suis toujours à la recherche
+                  de nouvelles expéditions. Je suis quelqu'un de plutôt ouvert sur le monde, et je trouve fascinant le fait de pouvoir
+                  découvrir de nouvelles cultures et de nouveaux paysages.
+                  <br>Ci-dessous, vous trouverez un aperçu des différents lieux que j'ai pu visiter. J'ai comme projet futur de découvrir
+                  l'Océanie, l'Amerique du Sud et l'Afrique, qui sont des continents encore inconnus pour moi.</p>
+                  <div class="container">
+                    <iframe id="maps" src="https://www.google.com/maps/d/u/0/embed?mid=1WXytvJTZK8Pm1eJRj-oz6tW88yg&ll=3.090317164409747%2C57.1709892729757&z=1" width=100% height="480"></iframe>
+                  </div>
+                  <iframe width="90%" height="350" src="https://www.youtube.com/embed/XZ5rFxvWlms" frameborder="0" allowfullscreen></iframe>
+                  <br><br>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="moto" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Motard</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/interest/moto.jpg" alt="moto">
+                  <p>Jeune motard depuis 2016, la moto est devenue une véritable passion. J'ai rapidemment adopté "l'esprit motard", que je
+                    définis comme un état d'esprit tourné vers l'entraide et le respect.<br>
+                    Aventurier et voyageur dans l'âme, j'aime partir sans vraiment savoir où je vais
+                    et ainsi découvrir de nouveaux paysages.<br><br>
+                    En automne 2019, je me suis lancé dans un tour de France à moto en solo, parcourant 6200km de petites routes en 33 jours.
+                  </p>
+                  <div class="container">
+                    <iframe id="maps" src="https://www.google.com/maps/d/embed?mid=1a47CuZoGDy1oXQ2Pj1tT1-wiZBTuncKj&ll=46.57140512479116%2C2.018573953972009&z=6" width=100% height="600"></iframe>
+                  </div>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="diving" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Plongée sous-marine</h2>
+                  <hr class="hr-primary">
+                  <img class="img-fluid img-centered" src="img/interest/diving.jpg" alt="plongée sous-marine">
+                  <p>Amoureux de l'océan et des fonds marins, je plonge dès que l'occasion se présente !
+                  <br>Je suis certifié PADI Advanced Open Water.</p>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Languages -->
+    <div id="languages">
+      <a href="/"><img class="img-fluid img-centered" src="img/languages/france.png" alt="fr" id="fr"></a>
+      <a href="en.html"><img class="img-fluid img-centered" src="img/languages/uk.png" alt="en" id="en"></a>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="js/script.js"></script>
+
+    <!-- Linkedin -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+  </body>
+
 </html>
