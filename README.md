@@ -1,5 +1,5 @@
 # Personal website
 
-**Check out the website: [guillaume-fradet.com](https://guillaume-fradet.com/)**
+**Check out the website: []()**
 
 *Based on a template from [startbootstrap.com](https://startbootstrap.com/)*
